@@ -13,6 +13,7 @@ header {
   text-align: center;
   padding: 100px 0;
   width: 100%;
+  max-width: 1200px;
 }
 header h3 {
   font-family: Roboto Mono;
@@ -38,6 +39,9 @@ header a {
   border-radius: 40px;
   color: #060714;
   text-decoration: none;
+}
+main {
+  max-width: 1200px;
 }
 main h3 {
   font-family: Poppins;
@@ -68,6 +72,8 @@ footer {
   padding: 60px 20px;
   width: 100%;
   font-family: Poppins;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 footer li {
@@ -124,6 +130,7 @@ footer p {
   background-color: #0b1793;
   padding-top: 20px;
   color: white;
+  width: 100%;
 }
 .third h2 {
   margin-bottom: 0;
@@ -162,7 +169,6 @@ footer p {
 .img-responsive {
   width: 100%;
   display: block;
-  max-height: 1200px;
 }
 .about {
   color: white;
