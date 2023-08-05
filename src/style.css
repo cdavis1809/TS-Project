@@ -127,9 +127,13 @@ footer p {
 }
 .third h2 {
   margin-bottom: 0;
+  font-size: 68px;
+  letter-spacing: 2px;
 }
 .third h3 {
   color: #5bd5e3;
+  padding: 10px;
+  font-size: 20px;
 }
 .third p {
   font-family: Poppins;
@@ -147,8 +151,13 @@ footer p {
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 60px 0;
+  padding: 40px 0;
   width: 100%;
+}
+.secondary h2 {
+  font-family: Poppins;
+  font-size: 68px;
+  margin: 0;
 }
 .img-responsive {
   width: 100%;
@@ -208,10 +217,14 @@ footer p {
   .insta-grid {
     display: block;
     margin: 0 auto;
+    padding: 10px 0 0 0;
   }
   .footer-grid {
     display: block;
     margin: 0 auto;
     text-align: center;
+  }
+  .third p {
+    padding: 0;
   }
 }
